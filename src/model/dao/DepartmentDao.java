@@ -6,6 +6,8 @@ import java.util.List;
 
 
 public interface DepartmentDao {
+
+
     void insert(Department obj);
     void update(Department obj);
     void delete(Integer id);
